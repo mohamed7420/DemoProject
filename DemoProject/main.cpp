@@ -7,9 +7,17 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    unsigned width , length ;
+    
+    cout<< "please enter your width \n";
+    cin>> width;
+    cout<<"please enter your leangth \n";
+    cin>> length ;
+    
+    cout<< "Your area equal = "<<width * length<<endl;
     return 0;
 }
